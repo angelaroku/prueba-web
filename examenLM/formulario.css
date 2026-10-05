@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    width: 300px ;
+    margin: auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    border: none;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #fc0800;
+    cursor: pointer;
+    border-radius: 5px;
+}
+section {
+    background-color: antiquewhite;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 9ch;
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}

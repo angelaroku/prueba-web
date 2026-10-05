@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <!-- <title>formularioEx</title> -->
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+
+    <section>
+    <h1>Formulario de Registro de Notas</h1>
+    <form action="form2Ex.html">
+
+        <label for="NombreAlumno">Nombre Alumno: </label>
+        <input type="text" id="NomAlu" value="Nombre no vaxiuu" placeholder="Nombre" > <br>
+
+        <label for="NotaExamen">Nota Examen: </label>
+        <input type="number" id="NotEx" placeholder="Nota" > <br>
+
+        <label for="Materia">Materia: </label>
+        <select for="Materia" value="Matematicas">
+            <option value="Matematicas" id="MateriaMatematicas">Matematicas</option>
+            <option value="Lengua" id="MateriaLengua">Lengua</option>
+            <option value="Ingles" id="MateriaIngles">Ingles</option>
+            <option value="Historia" id="MateriaHistoria">Historia</option>
+        </select>
+
+        <button type="button" id="botonFrom" onclick="registrarNota()">Registrar Nota</button>
+        <button type="submit"> Ver Resultados </button>
+    </form>
+
+    </section>
+
+
+    <script>
+
+        //ni idea pero ai try
+
+        function registrarNota() {
+            const Nombre = document.get.ElementById (NomAlu);
+            console.log(Nombre)= localStorage;
+
+            const Nota = document.get.ElementById (NotEx);
+            console.log(Nombre)= localStorage;
+
+            const Materrrr = document.get.ElementById (idMateria);
+            console.log(Nombre)= localStorage;
+
+        }
+
+       function verRegistro(){
+            //enseÑar el registro
+        }
+
+    </script>
+</body>
+</html>
